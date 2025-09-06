@@ -53,7 +53,7 @@ Commit the changes:
 
 Push the changes to your branch:
 
-`git push -u origin flrindas-branch`
+`git push -u origin florindas-branch`
 
 
 # How to add your local project to Github
