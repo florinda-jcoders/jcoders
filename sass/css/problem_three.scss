@@ -1,0 +1,32 @@
+
+$primary-color: #333
+
+header {
+  background-coloor: red ;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 2em;
+    color: $primary-color;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    li a {
+      color: 555; 
+      background-color: lightgray;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: darkgray;
+      }
+    }
+  }
+}

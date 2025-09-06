@@ -1,0 +1,13 @@
+header h1 {
+  font-size: 14px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul a {
+  color: orange;
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
