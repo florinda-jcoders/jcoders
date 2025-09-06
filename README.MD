@@ -24,10 +24,17 @@ You'll see something like this, open it.
 
 # How to add your local project to Github
 First navigate to the folder of your project, in our case this is in Documents/jcoders
+
 Initialize the main branch: `git init -b main`
+
 Add all the files to the repo: `git add .`
+
 Commit the files: `git commit -m "First commit"`
+
 Go to Github and create a repo, copy the HTTPS Url it should look something like this: https://github.com/florinda-jcoders/jcoders.git
+
 We need to add this as our remote origin: `git remote add origin https://github.com/florinda-jcoders/jcoders.git`
+
 Verify that is now your origin by typing: `git remote -v` and it should display the link. 
+
 Now we push the changes: `git push origin main`
