@@ -1,25 +1,59 @@
 # Setting up the env
+
 Make sure you have Git installed in you computer 
+
 To verify just go to the windows icon in the left corner and type Git Bash 
+
 You'll see something like this, open it. 
+
 ![alt text](image.png)
 
 # Config the global username and email
+
  Navigate to the Documents folder by typing: `cd Documents`
+ 
  Create a new folder where you'll save all of your code: `mkdir webdev`
+ 
  Navigate to the created folder: `cd webdev`
 
  Configure the global username: `git config --global user.name "Your Github username"` 
+ 
  For example my username is florinda-jcoders so my command would look like this: `git config --global user.name "florinda-jcoders"`
 
  Configure the global email: `git config --gobal user.email "Your email associated with Github"`
+
  My example: `git config --global user.email "florinda@j-coders.com"` 
 
  To verify that was successful type in: `git config --list`
+ 
  And the console should display something like: 
  ![alt text](<Screenshot 2025-09-06 092055.png>)
 
+# How to clone the project to your computer and setup your personal branch
 
+Go to Github and copy the project url, click the button Code at the top right corner and copy the HTTPS link: https://github.com/florinda-jcoders/jcoders.git
+
+Open the Gitbash console and navigate to the folder where you want to clone the project. 
+
+And insert the command below:
+
+`git clone  https://github.com/florinda-jcoders/jcoders.git`
+
+Create a new personal branch that you will commit your work to: 
+
+`git checkout -b florindas-branch`
+
+Make some changes in the files and add those changes:
+
+`git add .`
+
+Commit the changes: 
+
+`git commit -m "my changes in my branch"`
+
+Push the changes to your branch:
+
+`git push -u origin flrindas-branch`
 
 
 # How to add your local project to Github
