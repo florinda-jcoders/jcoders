@@ -20,7 +20,7 @@ You'll see something like this, open it.
  
  For example my username is florinda-jcoders so my command would look like this: `git config --global user.name "florinda-jcoders"`
 
- Configure the global email: `git config --gobal user.email "Your email associated with Github"`
+ Configure the global email: `git config --global user.email "Your email associated with Github"`
 
  My example: `git config --global user.email "florinda@j-coders.com"` 
 
