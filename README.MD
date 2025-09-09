@@ -1,7 +1,7 @@
 # Qysh me bo setup GitBash 
 Download Git nga: https://git-scm.com/downloads merreni Windows nese e keni sistemin windows dhe instalojeni ate. 
 
-Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windows Icon. Duhet me u dok qeshtu:
+Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windows Icon. Duhet me u kane qeshtu dicka:
 
 ![alt text](image.png)
 
@@ -11,7 +11,7 @@ Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windo
 
  Navigo te Documents duke shenuar: `cd Documents`
  
-Krijo nje folder te ri me emrin webdev: `mkdir webdev`
+ Krijo nje folder te ri me emrin webdev: `mkdir webdev`
  
  Navigo te folderi webdev: `cd webdev`
 
@@ -23,7 +23,7 @@ Krijo nje folder te ri me emrin webdev: `mkdir webdev`
 
  Shembull emaili im: `git config --global user.email "florinda@j-coders.com"` 
 
- Per em verifiku qe i ke bo hapat qysh duhet sheno: `git config --list`
+ Per me verifiku qe i ke bo hapat qysh duhet sheno: `git config --list`
  
  Duhet me ju shfaq username dhe emaili juaj: 
  ![alt text](<Screenshot 2025-09-06 092055.png>)
@@ -40,7 +40,7 @@ Kjo e ben clone projektin tek folderi juaj.
 
 Per me hap VS Code ne kete projekt sheno: `code .`
 
-
+#Pune te mbare
 
 # How to add your local project to Github
 First navigate to the folder of your project, in our case this is in Documents/jcoders
