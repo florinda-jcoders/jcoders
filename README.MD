@@ -25,8 +25,7 @@ Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windo
 
  Per me verifiku qe i ke bo hapat qysh duhet sheno: `git config --list`
  
- Duhet me ju shfaq username dhe emaili juaj: 
- 
+ Duhet me ju shfaq username dhe emaili juaj.
 
 # Qysh me bo clone projektin
 
@@ -40,7 +39,7 @@ Kjo e ben clone projektin tek folderi juaj.
 
 Per me hap VS Code ne kete projekt sheno: `code .`
 
-#Pune te mbare
+# Pune te mbare
 
 # How to add your local project to Github
 First navigate to the folder of your project, in our case this is in Documents/jcoders
