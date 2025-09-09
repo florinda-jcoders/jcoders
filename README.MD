@@ -1,7 +1,7 @@
 # Qysh me bo setup GitBash 
 Download Git nga: https://git-scm.com/downloads merreni Windows nese e keni sistemin windows dhe instalojeni ate. 
 
-Per me vrifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windows Icon. Duhet me u dok qeshtu:
+Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windows Icon. Duhet me u dok qeshtu:
 
 ![alt text](image.png)
 
