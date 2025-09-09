@@ -1,59 +1,45 @@
-# Setting up the env
+# Qysh me bo setup GitBash 
+Download Git nga: https://git-scm.com/downloads merreni Windows nese e keni sistemin windows dhe instalojeni ate. 
 
-Make sure you have Git installed in you computer 
-
-To verify just go to the windows icon in the left corner and type Git Bash 
-
-You'll see something like this, open it. 
+Per me vrifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windows Icon. Duhet me u dok qeshtu:
 
 ![alt text](image.png)
 
-# Config the global username and email
+#  Konfiguro email dhe username
 
- Navigate to the Documents folder by typing: `cd Documents`
+ Hape GitBash
+
+ Navigo te Documents duke shenuar: `cd Documents`
  
- Create a new folder where you'll save all of your code: `mkdir webdev`
+Krijo nje folder te ri me emrin webdev: `mkdir webdev`
  
- Navigate to the created folder: `cd webdev`
+ Navigo te folderi webdev: `cd webdev`
 
- Configure the global username: `git config --global user.name "Your Github username"` 
+ Konfiguro username: `git config --global user.name "Your Github username"` 
  
- For example my username is florinda-jcoders so my command would look like this: `git config --global user.name "florinda-jcoders"`
+ Shembull username im eshte florinda-jcoders keshtu qe komanda do te duket: `git config --global user.name "florinda-jcoders"`
 
- Configure the global email: `git config --global user.email "Your email associated with Github"`
+ Konfiguro email: `git config --global user.email "Your email associated with Github"`
 
- My example: `git config --global user.email "florinda@j-coders.com"` 
+ Shembull emaili im: `git config --global user.email "florinda@j-coders.com"` 
 
- To verify that was successful type in: `git config --list`
+ Per em verifiku qe i ke bo hapat qysh duhet sheno: `git config --list`
  
- And the console should display something like: 
+ Duhet me ju shfaq username dhe emaili juaj: 
  ![alt text](<Screenshot 2025-09-06 092055.png>)
 
-# How to clone the project to your computer and setup your personal branch
+# Qysh me bo clone projektin
 
-Go to Github and copy the project url, click the button Code at the top right corner and copy the HTTPS link: https://github.com/florinda-jcoders/jcoders.git
+Shko ne Github dhe te butoni CODE merre HTTPS link qe eshte: https://github.com/florinda-jcoders/jcoders.git
 
-Open the Gitbash console and navigate to the folder where you want to clone the project. 
-
-And insert the command below:
+Hape GitBash dhe fute kete komand:
 
 `git clone  https://github.com/florinda-jcoders/jcoders.git`
 
-Create a new personal branch that you will commit your work to: 
+Kjo e ben clone projektin tek folderi juaj. 
 
-`git checkout -b florindas-branch`
+Per me hap VS Code ne kete projekt sheno: `code .`
 
-Make some changes in the files and add those changes:
-
-`git add .`
-
-Commit the changes: 
-
-`git commit -m "my changes in my branch"`
-
-Push the changes to your branch:
-
-`git push -u origin florindas-branch`
 
 
 # How to add your local project to Github
