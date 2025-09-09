@@ -26,7 +26,7 @@ Per me verifiku qe o install bone search ne qoshin e majt ne kompjuter tek Windo
  Per me verifiku qe i ke bo hapat qysh duhet sheno: `git config --list`
  
  Duhet me ju shfaq username dhe emaili juaj: 
- ![alt text](<Screenshot 2025-09-06 092055.png>)
+ 
 
 # Qysh me bo clone projektin
 
